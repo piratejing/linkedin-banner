@@ -1,12 +1,12 @@
 .body {
-  position: relative;
+  height: 100px;
   background-image: url(./banner.jpg);
   background-repeat: no-repeat;
 }
 
 .title {
   display: flex;
-  height: 340px;
+  height: 250px;
   padding-right: 20px;
   justify-content: right;
   align-items: center;
@@ -16,17 +16,31 @@
 }
 
 .javascript {
-  left: 0; /* Add this line to position the JavaScript image at the left */
+  width: 50px;
 }
 
 .react {
-  left: 50px; /* Adjust the left value to position the React image */
+  width: 65px;
 }
 
 .node {
-  left: 100px; /* Adjust the left value to position the Node image */
+  width: 50px;
 }
 
 .mongo {
-  left: 150px; /* Adjust the left value to position the MongoDB image */
+  width: 58px;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imgcontainer img {
+  position: relative;
+  z-index: 1;
+  margin-left: 10px;
+  /* padding-right: 20px; */
+  right: 20px;
+  top: -80px;
 }
