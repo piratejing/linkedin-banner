@@ -1,0 +1,32 @@
+.body {
+  position: relative;
+  background-image: url(./banner.jpg);
+  background-repeat: no-repeat;
+}
+
+.title {
+  display: flex;
+  height: 340px;
+  padding-right: 20px;
+  justify-content: right;
+  align-items: center;
+  color: rgb(154, 159, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.javascript {
+  left: 0; /* Add this line to position the JavaScript image at the left */
+}
+
+.react {
+  left: 50px; /* Adjust the left value to position the React image */
+}
+
+.node {
+  left: 100px; /* Adjust the left value to position the Node image */
+}
+
+.mongo {
+  left: 150px; /* Adjust the left value to position the MongoDB image */
+}
